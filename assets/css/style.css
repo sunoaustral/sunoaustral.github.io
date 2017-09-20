@@ -1,3 +1,4 @@
+
 /* Block Color Changes */
 
 .readmoreBlock {
@@ -125,14 +126,19 @@ body .nopad {
 	font-family: 'Roboto', sans-serif;
 	height:660px;
 }
-.pagehead h1 {
+.pagehead_top {
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	height:660px;
+}
+.pagehead h1 , .pagehead_top h1 {
 	font-size:45px;
 	font-weight:400;
 }
-.pagehead h1 span {
+.pagehead h1 span ,.pagehead_top h1 span {
 	font-weight:700;
 }
-.pagehead p {
+.pagehead p,.pagehead_top p {
 	font-size:18px;
 	font-weight:lighter;
 }
