@@ -13,13 +13,16 @@
 }
 
 .card .img {
+	position: relative;
+	overflow:hidden;
+	/*
 	margin: 2%;
 	padding: 0px;
-	
 	margin: 0px;
 	padding: 0px;
 	height: 100%;
 	width: 100%;
+	*/
 }
 
 .card .info{
@@ -28,8 +31,15 @@
 }
 
 .card img{
-	border-top-left-radius: 1.5em;
-	border-top-right-radius: 1.5em;
-	height: 100%;
-	width: 100%;
+	border-top-left-radius: 1.4em;
+	border-top-right-radius: 1.4em;
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 15em;
+	max-height: 15em;
+	
+}*/
+
+.career_info{
+	color: red;
 }
