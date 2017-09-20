@@ -30,10 +30,10 @@
                      <div class="text-center">
                         <ul class="list-inline">
                            <li><a href="index.html">Inicio</a></li>
-                           <li><a href="staff.html" class="rndbtn"> Quienes somos</a></li>
+                           <li><a href="staff.html"> Quienes somos</a></li>
                            <li><a href="">Problemática</a></li>
                            <li><a href="">Informes</a></li>
-                           <li><a href="sesiones.html">Sesiones</a></li>
+                           <li><a href="sesiones.html" class="rndbtn">Sesiones</a></li>
                         </ul>
                      </div>
                   </div>
@@ -42,63 +42,19 @@
                </div>
             </div>
             <div class="pagehead_top text-center">
-               <h1>Nuestro equipo</h1>
-            
-<div class="card">
-         <div class="img">
-            <img src="http://www.yabengineering.com/Content/images/staff-default-f.png" alt="simple card" class="responsive">
-         </div>
-         <div class="info">
-            <p><h4>Susana Obando</h4></p>
-            <p class ="career_info"><h6>Ingeniería Naval</h6></p>
-         </div>
-</div><!--card cancel -->
-<div class="card">
-         <div class="img">
-            <img src="assets/images/staff/francisco_gonzalez1.jpg" alt="simple card" class="responsive">
-         </div>
-         <div class="info">
-            <p><h4>Francisco González</h4></p>
-            <p class ="career_info"><h6>Ingeniería Civil en Informática</h6></p>
-         </div>
-</div><!--card cancel -->
-<div class="card">
-         <div class="img">
-            <img src="assets/images/staff/cristian_ordonez1.jpeg" alt="simple card" class="responsive">
-         </div>
-         <div class="info">
-            <p><h4>Cristian Ordoñez</h4></p>
-            <p class ="career_info"><h6>Ingeniería Civil en Informática</h6></p>
-         </div>
-</div><!--card cancel -->
-<div class="card">
-         <div class="img">
-            <img src="assets/images/staff/fernando_reyes1.png" alt="simple card" class="responsive">
-         </div>
-         <div class="info">
-            <p><h4>Fernando Reyes</h4></p>
-            <p class ="career_info"><h6>Ingeniería Civil en Informática</h6></p>
-         </div>
-</div><!--card cancel -->
-<div class="card">
-         <div class="img">
-            <img src="assets/images/staff/gabriel_monarez1.jpeg" alt="simple card" class="responsive">
-         </div>
-         <div class="info">
-            <p><h4>Gabriel Monarez</h4></p>
-            <p class ="career_info"><h6>Ingeniería Naval</h6></p>
-         </div>
-</div><!--card cancel -->
-<div class="card">
-         <div class="img">
-            <img src="http://www.yabengineering.com/Content/images/staff-default-m.png" alt="simple card" class="responsive">
-         </div>
-         <div class="info">
-            <p><h4>José Pabst</h4></p>
-            <p class ="career_info"><h6>Ingeniería Naval</h6></p>
-         </div>
-</div><!--card cancel -->
-
+               <h1>Sesiones</h1>
+               <div class="content">
+                  <div id="sessionstab" class="tab">
+                  <!--
+                    <button class="tablinks" onclick="">London</button>
+                    <button class="tablinks" onclick="">Paris</button>
+                    <button class="tablinks" onclick="">Tokyo</button>
+                 -->
+                  </div>
+                  <div id="sessionscontent" class="tabcontent">
+                     
+                  </div>
+               </div>
          </div>
             </div>
       </header>
@@ -124,5 +80,41 @@
          Copyright @2017 sunoaustral. Todos los derechos reservados.
        </div>
       </footer>
+      <script type="text/javascript" src="assets/js/jquery.js"></script>
+      <script type="text/javascript" src="assets/js/logic.js"></script>
+      <script type="text/javascript">
+
+         function showTab(tid){
+            $(sessions).each(function(){
+               $('#content_'+$(this)[0].id).css('display','none');
+            })
+            $('#content_'+tid).css('display','block');
+         }
+
+         $(document).ready(function(){
+            init();
+            for(i in sessions){
+
+               s=sessions[i];
+               tab=$('<button class="session_tab" onclick="showTab('+s.id+')">'+s.name+' ['+s.date.toLocaleDateString("es-ES")+']</button>');
+
+               content=$('<div id="content_'+s.id+'": '+s.date+' class="tabcontent">\
+                  Hola '+s.name+'\
+                  </div>')
+               content.css('display','none');
+               $('#sessionstab:last').append(tab);
+               $('#sessionscontent:last').append(content);
+            
+
+            }
+            /*
+            $('.tabcontent').each(function(){
+               $(this).css('display','none');
+            });
+            */
+            
+         });
+      </script>
+   
    </body>
 </html>

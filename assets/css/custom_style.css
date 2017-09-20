@@ -1,3 +1,7 @@
+.session_tab{
+	background-color: black;
+	color: white;
+}
 .card{
 	border: solid black 2px;
 	border-radius: 1.5em;
