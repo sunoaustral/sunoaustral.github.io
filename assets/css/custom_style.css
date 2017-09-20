@@ -14,7 +14,7 @@
 
 .card .img {
 	position: relative;
-	overflow:hidden;
+	//overflow:hidden;
 	/*
 	margin: 2%;
 	padding: 0px;
@@ -31,14 +31,15 @@
 }
 
 .card img{
+
 	border-top-left-radius: 1.4em;
 	border-top-right-radius: 1.4em;
 	min-width: 100%;
 	max-width: 100%;
 	min-height: 15em;
 	max-height: 15em;
-	
-}*/
+
+}
 
 .career_info{
 	color: red;
