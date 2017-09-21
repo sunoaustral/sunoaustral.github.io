@@ -1,3 +1,31 @@
+.photo_item{
+	max-width: 20em;
+	border:solid 4px darkblue;
+	display: inline-block;
+}
+.photo_item:hover{
+	border:solid 4px green;
+}
+.gallery_img{
+	max-width: 100%;
+}
+.photo_gallery{
+	color: black;
+	border: dotted 1px black;
+	background-color: beige;
+}
+.tabcontent{
+	padding: 1em;
+	color: black;
+	position: absolute;
+	border-radius: 1.5em;
+	border:solid 2px black;
+	background-color: white;
+	left: 100px;
+	right: 100px;
+
+	min-height: 20em;
+}
 .session_tab{
 	background-color: black;
 	color: white;

@@ -1,4 +1,8 @@
 var sessions=[];
+var date_options = {year: "numeric", month: "long", day: "numeric"};
+function capital(string){
+	return string.charAt(0).toUpperCase()+string.slice(1);
+}
 
 function init(){
 	sessions.push({
@@ -7,6 +11,10 @@ function init(){
 		date:new Date('September 12, 2017'),
 		bitacora:"",
 		fotos:[
+			{
+				file:"assets/images/sesiones/sesion1/placa_rlc.jpeg",
+				desc:"placa RLC.",
+			},
 		],
 	});
 	sessions.push({
@@ -24,7 +32,7 @@ function init(){
 		bitacora:"",
 		fotos:[
 			{
-				file:"/assets/images/sesiones/sesion1/circuito_resistecias_serie",
+				file:"assets/images/sesiones/sesion3/circuito_resistecias_serie.jpeg",
 				desc:"circuito resistecias en serie.",
 			},
 		],
