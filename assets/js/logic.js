@@ -28,6 +28,7 @@ function init(){
 		date:new Date('September 13, 2017'),
 		bitacora:"comienza el desarrollo de la guía entregada. Comenzamos estudiando las leyes de Kirchhoff.",
 		fotos:[
+		
 		],
 	});
 	sessions.push({
