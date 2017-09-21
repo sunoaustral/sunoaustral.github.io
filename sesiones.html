@@ -101,7 +101,9 @@
                content=$('<div id="content_'+s.id+'": '+s.date+' class="tabcontent">\
                   <h4>'+capital(s.name)+'</h4>\
                   <p><strong>Fecha</strong>: '+s.date.toLocaleString("es-ES",date_options)+'</p>\
-                  Galería fotográfica\
+                  <strong>Bitácora</strong>\
+                  <div id="bitacora_'+s.id+'" class="bitacora"></div>\
+                  <strong>Galería fotográfica</strong>\
                   <div id="photo_gallery_'+s.id+'" class="photo_gallery">\
                   </div>\
                   </div>');
@@ -114,19 +116,8 @@
                $('#sessionstab:last').append(tab);
                $('#sessionscontent:last').append(content);
 
-               console.log(s.fotos.length);
                if(s.fotos.length>0){
-                  //$('#photo_gallery_'+s.id).html('FOTOOO');
                   $(s.fotos).each(function(){
-                     //console.log($(this));
-/*
-<div class="gallery">
-  <a target="_blank" href="fjords.jpg">
-    <img src="fjords.jpg" alt="Fjords" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-*/
                      photo_item=$('<div class="photo_item">\
                         <a target="_blank" href="'+this.file+'">\
                         <img class="gallery_img" src="'+this.file+'"></a>\
@@ -136,6 +127,11 @@
                   });
                }else{
                   $('#photo_gallery_'+s.id).html('No hay fotografias.');
+               }
+               if(s.bitacora.length>0){
+                  $('#bitacora_'+s.id).append(capital(s.bitacora));
+               }else{
+                  $('#bitacora_'+s.id).append(capital("No hay registros de bitácora."));
                }
 
             }

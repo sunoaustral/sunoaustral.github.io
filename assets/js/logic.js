@@ -10,7 +10,7 @@ function init(){
 		id:0,
 		name:'sesión 1',
 		date:new Date('September 12, 2017'),
-		bitacora:"",
+		bitacora:"se nos presenta el proyecto solar y se nos dan instrucciones y recomendaciones.",
 		fotos:[
 			{
 				file:"assets/images/sesiones/sesion1/placa_rlc.jpeg",
@@ -26,7 +26,7 @@ function init(){
 		id:1,
 		name:'sesión 2',
 		date:new Date('September 13, 2017'),
-		bitacora:"",
+		bitacora:"comienza el desarrollo de la guía entregada. Comenzamos estudiando las leyes de Kirchhoff.",
 		fotos:[
 		],
 	});
@@ -34,7 +34,7 @@ function init(){
 		id:2,
 		name:'sesión 3',
 		date:new Date('September 20, 2017'),
-		bitacora:"",
+		bitacora:"Seguimos con el desarrollo de la guía, terminamos la parte de las leyes de Kirchhoff y comenzamos con ...",
 		fotos:[
 			{
 				file:"assets/images/sesiones/sesion3/circuito_resistecias_serie.jpeg",
