@@ -1,5 +1,6 @@
 var sessions=[];
 var date_options = {year: "numeric", month: "long", day: "numeric"};
+
 function capital(string){
 	return string.charAt(0).toUpperCase()+string.slice(1);
 }
