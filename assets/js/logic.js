@@ -16,6 +16,10 @@ function init(){
 				file:"assets/images/sesiones/sesion1/placa_rlc.jpeg",
 				desc:"placa RLC.",
 			},
+			{
+				file:"assets/images/sesiones/sesion1/multimetro1.jpg",
+				desc:"multimetro.",
+			},
 		],
 	});
 	sessions.push({
@@ -35,6 +39,14 @@ function init(){
 			{
 				file:"assets/images/sesiones/sesion3/circuito_resistecias_serie.jpeg",
 				desc:"circuito resistecias en serie.",
+			},
+			{
+				file:"assets/images/sesiones/sesion3/multimetro_rlc.jpeg",
+				desc:"multimetro conectado al circuito de resistencias en serie.",
+			},
+			{
+				file:"assets/images/sesiones/sesion3/WhatsApp Image 2017-09-20 at 12.57.09 PM.jpeg",
+				desc:"compañera anotando resultados de los experimentos.",
 			},
 		],
 	});
