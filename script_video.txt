@@ -1,0 +1,54 @@
+===presentacion elementos relacionados en el circuito===
+
+#TOMA1
+susana:  Esta es una tarjeta RLC,
+que esta compuesta de resistencias, condensadores y una bobina.
+
+
+#TOMA2
+susana: Un multímetro el cual se utilizará como voltímetro para medir el voltaje, amperímetro para medir la corriente y ohmimetro para medir la resistencia.
+
+
+#TOMA3
+susana: Utilizaremos una fuente de poder regulable, y cables para conectar los distintos elementos involucrados
+
+
+===mediciones===
+
+------medir resistencia
+(presentacion del circuito)
+susana:El circuito configurado en este momento se utilizará para medir una resistencia.
+**indicar en texto que se conecta en paralelo para la medicion de resistencia
+(susana mide la resistencia:
+    - posicionar el multimetro en modo ohmimetro en escala 200 ohms. (?)
+    - conectar el circuito para medir una resistencia de 100 ohms.
+)
+
+------medir voltaje
+(presentacion del circuito)
+susana:El circuito configurado en este momento se utilizará para medir el voltaje dentro del circuito.
+**indicar en texto que se conecta en paralelo para la medicion de voltaje
+(susana mide la resistencia:
+    - posicionar el multimetro en modo voltímetro en escala maxima (1000) de volts.
+    - conectar el circuito para medir voltaje en alguna parte del circuito.
+    - indicar la importancia de establecer el valor mínimo de voltaje de la fuente por razones de seguridad antes de conectar la fuente al circuito.
+)
+
+------medir corriente
+(presentacion del circuito)
+susana:El circuito configurado en este momento se utilizará para medir la corriente dentro del circuito.
+**indicar en texto que se conecta en serie para la medicion de corriente
+(susana mide la resistencia:
+    - posicionar el multimetro en modo amperímetro en escala maxima (20) de amperes.
+    - conectar el circuito para medir corriente en alguna parte del circuito.
+)
+
+audios
+
+-- Explicacion de que es un multimetro:
+    susana: Un multímetro es un instrumento eléctrico portátil para medir directamente magnitudes eléctricas como corriente, voltaje y resistencias, entre otras.
+
+-- Explicacion de las escalas
+    Susana: En general, al realizar una medición, se utiliza la escala más alta que puede medir el multimetro dependiendo de la funcion que utilizaremos. (texto: voltimetro, amperimetro, ohmimetro)
+    Esto se hace por razones de seguridad para no estropear los componentes del multímetro. Al momento de visualizar el valor obtenido, se puede disminuir la escala para obtener resultados mas precisos al momento de realizar la medición.
+ 
