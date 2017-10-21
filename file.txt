@@ -1,0 +1,29 @@
+[11:38, 17/10/2017] +56 9 8303 8679: algunas cosas que he recopilado
+-------------------------------------------------------------------------------------------------------------------	
+
+#circuitos electricos
+http://www.edu.xunta.gal/centros/iesfelixmuriel/system/files/4-elctri_repaso.pdf
+
+#principios de circuitos electricos
+http://media.espora.org/mgoblin_media/media_entries/1455/Principios_de_circuitos_electricos.pdf
+
+#CONSERVACION DE LA ENERGIA EN LOS PROCESOS ELECTRICOS
+https://es.scribd.com/doc/276930564/Conservacion-de-la-Energia-en-los-Procesos-Electricos
+
+#Leyes de Kirchhoff
+http://circuitoselectricosendc.blogspot.cl/p/leyes-de-kirchhoff.html
+
+-------------------------------------------------------------------------------------------------------------------
+
+#max potencia
+http://repositorio.innovacionumh.es/Proyectos/P_19/Tema_1/UMH_09.htm 
+
+#preguntas frecuentes baterias
+http://www.tabspain.com/corporativo/preguntas-mas-frecuentes-sobre-baterias  
+
+#inversor tofovoltaico
+https://www.ujaen.es/investiga/solar/07cursosolar/home_main_frame/04_componen/04_inversor/01_basico/4_inve_01.htm
+[13:35, 17/10/2017] +56 9 8303 8679: #ley de corriente de Kirchhoff
+https://es.wikiversity.org/wiki/Ley_de_Corriente_de_Kirchhoff
+[13:35, 17/10/2017] +56 9 8303 8679: #ley de voltaje de Kirchhoff
+https://es.wikiversity.org/wiki/Ley_de_Voltaje_de_Kirchhoff
